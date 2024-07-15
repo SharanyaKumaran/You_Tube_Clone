@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+.html {
+  width: 30px;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: yellow;
+}
+
+.button {
+  cursor: pointer;
+  color: white;
+  background-color: rgb(182, 22, 22);
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  margin-right: 10px;
+  outline: rgb(131, 131, 252) solid;
+  transition: opacity 0.15s;
+}
+.button:hover {
+  opacity: 0.8;
+  padding: 15px 15px 15px 15px;
+}
+.button:active {
+  opacity: 0.6;
+}
+.button2 {
+  cursor: pointer;
+  color: black;
+  border-radius: 30px;
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 36px;
+  width: 150px;
+  margin-right: 10px;
+  transition: background-color 1s;
+}
+.button2:hover {
+  color: rgb(255, 216, 20);
+  background-color: black;
+  margin: 0px 10px 0px 10px;
+}
+.button2:active {
+  opacity: 0.7;
+}
+.button3 {
+  cursor: pointer;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  background-color: rgb(56, 190, 239);
+  border-radius: 20px;
+  border: none;
+  height: 36px;
+  width: 80px;
+}
+.button3:hover {
+  box-shadow: 5px 5px 10px rgba(112, 110, 110, 0.6);
+  display: inline-block;
+  padding: 10px 20px; 
+}
